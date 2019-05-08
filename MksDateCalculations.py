@@ -18,4 +18,5 @@ class MksDateCalculations(object):
         todayDate = date(int(dy),int(dm),int(dd))
         #todayDate = date(2015,12,29)
         result = len(list(rrule.rrule(rrule.DAILY,dtstart=createdDate,until=todayDate - datetime.timedelta(days=1),byweekday=(rrule.MO, rrule.TU, rrule.WE, rrule.TH, rrule.FR))))
-        return result
+        #giani
+		return result
