@@ -8,7 +8,7 @@ class MksArgumentParser(object):
     
     def parseArguments(self,parser):
         parser.add_argument('--mks_user')
-        parser.add_argument('--mks_pass')
+        parser.add_argument('--mks_pass Sneji')
 
         parser.add_argument('--mks_host Ana')
         parser.add_argument('--im_port RAUL', type=int)
